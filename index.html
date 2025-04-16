@@ -2,9 +2,49 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Photography Site - Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography Website</title>
     <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> 
+    <style>
+        .training-section {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            padding: 40px 20px;
+            background-color: #342c30;
+            color: white;
+            align-items: center;
+        }
+
+        .training-box {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border: 1px solid white;
+            padding: 30px;
+            border-radius: 10px;
+            background-color: #342c30;
+            width: 100%;
+            max-width: 1100px;
+            box-sizing: border-box;
+        }
+
+        .training-box button {
+            background-color: white;
+            color: black;
+            border: none;
+            border-radius: 50px;
+            padding: 20px 30px;
+            font-weight: bold;
+            cursor: pointer;
+            font-size: 18px;
+            transition: background-color 0.3s ease;
+        }
+
+        .training-box button:hover {
+            background-color: #e0e0e0;
+        }
+    </style>
 </head>
 <body>
 
@@ -16,34 +56,78 @@
     <h2>PhotoGallery</h2>
     <nav>
         <a href="index.html" class="btn">HOME</a> 
-        <a href="gallery.html" class="btn">HOME</a>
-        <a href="contact.html" class="btn">HOME</a>
+        <a href="gallery.html" class="btn">GALLERY</a>
+        <a href="contact.html" class="btn">CONTACT</a>
         
     </nav>
 </header>
 
+
 <div class="container">
     
-    <a href="index.html" class="btn">PHOTO</a>
-
+    <a href="index.html" class="btn">PHOTO </a>
+    <div class="author-box">
+        
     <h1>How to Embed Instagram Photos on Website</h1>
     <p>Find out how to easily add Instagram photos to your website. Learn how to increase engagement and enhance your online presence with just a few clicks.</p>
-    <a href="https://embedsocial.com/blog/embed-instagram-feed-for-free/" class="btn">Create Instagram Feed Widget</a>
-
-    <div class="image-section">
-        <img src="images/photo4.jpg" alt="Instagram Guide">
-    </div>
-
-    <div class="author-box">
-        <a href="https://www.instagram.com/theverdantworld?igsh=MWJwZ3IxZ2Q3c2Jmag%3D%3D&utm_source=qr" target="_blank"><img src="images/theverdantworld.JPG" alt="Author" class="author-img"></a>
-
-        <span>TheVerdantWorld</span>
-        <span>Today 56 min ago •</span>
+    <div class="button-row">
         
-        <div class="social-icons">
-            
+    
+    
+    <a href="https://embedsocial.com/blog/embed-instagram-feed-for-free/" class="btn">Create Instagram Feed Widget</a>
+    <a href="https://www.instagram.com/theverdantworld/?igsh=MWJwZ3IxZ2Q3c2Jmag%3D%3D&utm_source=qr#" class="btn">The Verdant World 🌍</a>
+    <a href="https://embedsocial.com/blog/embed-instagram-feed-for-free/" class="btn">How to viral your Instagram Account</a>
+</div>
+    <div class="image-section">
+        
+             <div class="gallery" id="gallery">
+                <img src="images/photo1.jpg" alt="Gallery Image 1">
+                <img src="images/photo2.jpg" alt="Gallery Image 2">
+                <img src="images/photo3.jpg" alt="Gallery Image 3">
+                </div>
+         </div>
 
-            <div class="social-icons">
+
+    
+    
+        
+        
+
+
+            
+    </div>
+</div>
+
+
+ <div class="training-section">
+        <div class="training-box">
+            <div>
+                <strong>About professional accounts on Instagram</strong>
+            </div>
+            <a href="https://help.instagram.com/138925576505882/?helpref=related_articles" class="btn">Find Out More</a>
+            
+        </div>
+        <div class="training-box">
+            <div>
+                <strong>Connect your Instagram professional account to a Meta ad account</strong>
+            </div>
+            
+            <a href="https://help.instagram.com/282255443132789/?helpref=related_articles" class="btn">Find Out More</a>
+           
+        </div>
+        <div class="training-box">
+            <div>
+                <strong>About connecting a Facebook Page to your Instagram professional account</strong>
+            </div>
+            <a href="https://www.facebook.com/help/instagram/790156881117411?helpref=faq_content" class="btn">Find Out More</a>
+           
+            
+        </div>
+    </div>
+    <div class="social-icons">
+            
+        
+            <div class="share-section">
                 <span>Share:</span>
                 <!-- Social Media Links -->
                 <a href="https://www.instagram.com" target="_blank"><img src="images/insta.jpg" alt="Instagram"></a> <!-- Added Instagram Link -->
@@ -52,12 +136,21 @@
                 <a href="https://www.linkedin.com" target="_blank"><img src="images/link.jpg" alt="LinkedIn"></a>
                 <a href="https://wa.me" target="_blank"><img src="images/whatsapp.jpg" alt="Whatsapp"></a>
                
+                
             </div>
+              </div>
+            </div>
+          </div>
+          
+        
 
-
-            
+        
+    <div class="training-section">
+        
+        
     </div>
-</div>
+    
+    
 
 </body>
 </html>
